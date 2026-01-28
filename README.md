@@ -65,13 +65,15 @@ The repo includes `vercel.json` so Vercel treats it as a static site with no bui
 Portfolio Website/
 ├── index.html    # Single-page content & structure
 ├── styles.css    # Layout, typography, components, responsive & print
-├── vercel.json   # Vercel config (static, no build)
-└── README.md     # This file
+├── resume.pdf   # Your resume — visitors can download (name it resume.pdf)
+├── vercel.json  # Vercel config (static, no build)
+└── README.md    # This file
 ```
 
 ## Customization
 
 - **Content** — Edit `index.html`: replace text, project links, contact details.
+- **Resume** — Put your resume PDF in this folder and name it `resume.pdf`. The nav “Resume”, hero “Download Resume”, and contact “Download PDF” links all point to it. Downloaded filename will be `Kartikey_Kumar_Resume.pdf`.
 - **Theme** — In `styles.css`, change `:root` variables (`--color-accent`, `--color-bg`, etc.).
 - **Print** — Print or “Save as PDF” uses built-in print styles (simplified layout, URLs shown).
 

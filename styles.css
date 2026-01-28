@@ -244,6 +244,13 @@ img { max-width: 100%; height: auto; display: block; }
   color: rgba(255, 255, 255, 0.85);
 }
 
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
 /* Buttons */
 .btn {
   display: inline-block;
@@ -265,6 +272,19 @@ img { max-width: 100%; height: auto; display: block; }
   background: var(--color-accent-hover);
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(13, 148, 136, 0.45);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  box-shadow: none;
+}
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: #fff;
+  transform: translateY(-2px);
+  box-shadow: none;
 }
 
 /* ----- Section common ----- */
